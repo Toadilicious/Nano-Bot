@@ -118,7 +118,7 @@ CustomBot.prototype.next = function(){
   if(currentStudent){
     this.bot.sendMessage(
       this.channel,
-      `<@${currentStudent.id}>, let's create a breakout room in https://generalassembly.zoom.us/j/651295243. \n
+      `<@${currentStudent.id}>, let's zoom: https://generalassembly.zoom.us/j/223609137. \n
        ${this.prettyQueue()}`
     );
 
@@ -257,6 +257,7 @@ CustomBot.prototype.respond = function(message){
       this.help();
       break;
     case "clear queue":
+    case "clear q":
       if(this.access_level >= 2) this.clearQueue();
       break;
     case "next":
