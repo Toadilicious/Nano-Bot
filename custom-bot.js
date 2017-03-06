@@ -237,7 +237,7 @@ CustomBot.prototype.respond = function(message){
 
   switch(text){
     case "hello":
-      this.bot.sendMessage(this.channel, `Hello, ${this.full_name}`);
+      this.bot.sendMessage(this.channel, `Hello, ${this.full_name} :wave:`);
       break;
     case "status":
       this.bot.sendMessage(this.channel, this.prettyQueue());
