@@ -118,7 +118,7 @@ CustomBot.prototype.next = function(){
   if(currentStudent){
     this.bot.sendMessage(
       this.channel,
-      `<@${currentStudent.id}>, let's zoom: https://generalassembly.zoom.us/j/223609137. \n
+      `<@${currentStudent.id}>, let's zoom: https://generalassembly.zoom.us/j/315726946. \n
        ${this.prettyQueue()}`
     );
 
