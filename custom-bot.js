@@ -3,6 +3,8 @@ var bot_flavor = require('./bot-flavor');
 
 var queue = JSON.parse(fs.readFileSync("./db.json", "utf8")).queue;
 
+var lastStudent = "";
+
 function CustomBot(bot, ta_id, admin_id){
   this.bot = bot;
   this.ta_id = ta_id;
@@ -113,12 +115,20 @@ CustomBot.prototype.setZoom = function() {
 };
 
 CustomBot.prototype.next = function(){
+  var lastStudent = queue[0];
   var currentStudent = queue.shift();
+  // TODO: How do I grab the previous student and post a message to ask for them to review.
   // TODO: Change `Zoom` to the set url above.
+  //  if(lastStudent){ 
+  //   this.bot.sendMessage(
+  //     this.channel, 
+  //     '<@${lastStudent.id}>, please fill out my exit ticket here: https://docs.google.com/a/generalassemb.ly/forms/d/1foM694uE-4duk49rCkq12J3KFy_AXWFYL9GERacpOCM
+  //   );
+  //  }
   if(currentStudent){
     this.bot.sendMessage(
       this.channel,
-      `<@${currentStudent.id}>, let's zoom: https://generalassembly.zoom.us/j/315726946. \n
+      `<@${currentStudent.id}>, let's zoom: https://generalassembly.zoom.us/j/2631919080. \n
        ${this.prettyQueue()}`
     );
 

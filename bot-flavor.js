@@ -10,15 +10,19 @@ var bot_flavor = {
               Hi! Nanobot here!
               `,
   "quotes": [
-    "Did you sift through the docs, or ask a friend for help? :nerd_face:",
-    "Did you know? Sister Mary Kenneth Keller was the first woman to receive a PhD in Computer Science, in 1965 from the University of Wisconsin.",
-    "Most of you are familiar with the virtues of a programmer. There are three, of course: laziness, impatience, and hubris. -- Larry Wall",
-    "First learn computer science and all the theory. Next develop a programming style. Then forget all that and just hack. -- George Carrette",
-    "Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live. -- Martin Golding",
-    "Hopper earned a PhD in math from Yale - a rare accomplishment for anyone at the time. Only 1,279 math PhDs were awarded in the 72-year period from 1862-1934, the year Hopper received hers. :mortar_board::medal:",
-    "Humans are allergic to change. They love to say, 'We have always done it this way.' I try to fight that. That's why I have a clock on my wall that runs counter-clockwise. --Grace Hopper :alarm_clock:",
-    "There's something you learn in your first boot-camp, or training camp: If they put you down somewhere with nothing to do, go to sleep — you don't know when you'll get any more. :laughing::zzz: --Grace Hopper",
-    "Grace Hopper is credited with coining the terms 'bug' and 'de-bug' as related to computer errors. One day a computer failure stumped Hopper and her team until she opened the machine and found a moth inside! Taping the moth into her log book, she wrote, 'first actual bug found.' :bee::bug::beetle:"
+    "Hide and seek champion `;` since 1958",
+    "`Programmer`(_noun._) A machine that turns coffee into code",
+    "`Programmer`(_noun._) A person who fixed a problem that you don't know you have, in a way you don't understand.",
+    "What do you call a programmer from finland?  A Nerdic",
+    "What is a programmer\'s favourite hangout place?  The Foo Bar",
+    "Why did the programmer quit his job?  Because he didn't get arrays.",
+    "Why do Java programmers have to wear glasses?  Because they don't C#",
+    "Real programmers count from 0",
+    "Chuck Norris writes code that optimizes itself",
+    "99 little bugs in the code, 99 bugs in the code, 1 bug fixed...compile again, 108 little bugs in the code.",
+    "if (sad() === true){sad.stop(); beAwesome(); }",
+   "['hip','hip']",
+   "I got angry and smashed my keyboard. I think I lost might have lost Ctrl."
   ],
 };
 
