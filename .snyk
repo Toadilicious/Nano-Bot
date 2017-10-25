@@ -6,3 +6,6 @@ patch:
   'npm:ws:20160920':
     - node-slackbot > ws:
         patched: '2017-10-24T17:34:44.548Z'
+  'npm:ws:20160104':
+    - node-slackbot > ws:
+        patched: '2017-10-25T00:26:04.205Z'
